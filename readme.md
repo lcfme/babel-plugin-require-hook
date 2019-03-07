@@ -1,8 +1,10 @@
 # babel-plugin-require-hook
 
+[![Build Status](https://travis-ci.com/lcfme/babel-plugin-require-hook.svg?branch=master)](https://travis-ci.com/lcfme/babel-plugin-require-hook)
+
 A [babel](http://babeljs.io) plugin to call custom function when babel requires a module.
 
-for more about writing babel plugin see [babel-handbook](https://github.com/jamiebuilds/babel-handbook/)
+for more things about writing babel plugin see [babel-handbook](https://github.com/jamiebuilds/babel-handbook/)
 
 ## Usage
 
