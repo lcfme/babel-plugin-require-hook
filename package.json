@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-require-hook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "cross-env NODE_ENV=production babel src/index.js --out-dir lib",
+    "test": "cross-env NODE_ENV=test mocha --require @babel/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.0",
+    "mocha": "^6.0.2"
+  },
+  "dependencies": {}
+}
